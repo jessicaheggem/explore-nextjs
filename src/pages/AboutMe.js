@@ -11,7 +11,7 @@ export default function AboutMe() {
       </Head>
       <main>
         <div>
-          <h1>About Me</h1>
+          <h1 className="text-3xl font-bold">About Me</h1>
           <p>My name is Jessica and I&apos;m someone who loves to learn. 
             I&apos;m experienced in front end software development and business analytics. 
             Currently, I&apos;m looking for opportunities in both areas. 
