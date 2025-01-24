@@ -56,6 +56,12 @@
   font-weight: 600;
 }
 
+.list {
+  color: green;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
 .ctas {
   display: flex;
   gap: 16px;

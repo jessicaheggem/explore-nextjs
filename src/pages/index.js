@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link"; // Import Link from next/link
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+//import AboutMe from "./AboutMe.js"; // Import the AboutMe component
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +27,11 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
+        <nav>
+          <Link href="/AboutMe">
+            <div>About Me</div>
+          </Link>
+        </nav>
         <main className={styles.main}>
           <Image
             className={styles.logo}
@@ -38,7 +45,9 @@ export default function Home() {
             <li>
               Get started by editing <code>src/pages/index.js</code>.
             </li>
-            <li>Save and see your changes instantly.</li>
+            <li>What a beautiful Test Next.js page.</li>
+            <li className={styles.list}>Created January 11, 2025</li>
+            <li>Look, an old dog can learn new tricks</li>
           </ol>
 
           <div className={styles.ctas}>
