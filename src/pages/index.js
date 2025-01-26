@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link"; // Import Link from next/link
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-//import AboutMe from "./AboutMe.js"; // Import the AboutMe component
+import NavBar from "./NavBar.js";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,26 +25,11 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <nav>
-          <Link href="/AboutMe">
-            <div>About Me</div>
-          </Link>
-          <a
-            href="/AboutMe"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            About me
-          </a>
-        </nav>
-        <main >
-          
-        
-        </main>
+        <NavBar />
 
-        <footer>
-          
-        </footer>
+        <main></main>
+
+        <footer></footer>
       </div>
     </>
   );
