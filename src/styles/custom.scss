@@ -1,0 +1,19 @@
+// This file is used to override the default Bootstrap variables and add custom variables.
+//It is not currently working. I must be missing something. Might need to set up a connection elsewhere or do something to initiate the scss file.
+// I will try to figure it out later.
+
+$text-bg-primary: pink;
+
+$theme-colors: (
+/*   "primary": #0074d9,
+ */ 
+  "primary": pink,
+ "danger": #ff4136
+);$theme-colors: (
+   /*  "primary": #0074d9, */
+   "primary": pink,
+    "danger": #ff4136
+  );
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
