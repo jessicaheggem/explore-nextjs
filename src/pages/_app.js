@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import "@/styles/customBootstrap.scss";
+import '@/styles/customBootstrap.scss'
 /* import 'bootstrap/dist/css/bootstrap.css';
  */
 

@@ -1,8 +1,8 @@
 // This file is used to override the default Bootstrap variables and add custom variables.
 //It is not currently working. I must be missing something. Might need to set up a connection elsewhere or do something to initiate the scss file.
 // I will try to figure it out later.
-/* @import "bootstrap/scss/functions";
- */
+ @import "bootstrap/scss/functions";
+
 $theme-colors: (
   "primary": pink,
   "danger": #ff4136,
@@ -12,6 +12,11 @@ $theme-colors: (
   "danger": #ff4136,
 );
 
-$navbar-brand: gray;
+// @import "../node_modules/bootstrap/scss.bootstrap.scss";
+@import "bootstrap/scss/bootstrap";
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
