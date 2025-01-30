@@ -5,12 +5,11 @@
 
 $theme-colors: (
   "primary": pink,
+  "success": hotpink,
   "danger": #ff4136,
 );
-$theme-colors: (
-  "primary": pink,
-  "danger": #ff4136,
-);
+
+
 
 // @import "../node_modules/bootstrap/scss.bootstrap.scss";
 @import "bootstrap/scss/bootstrap";

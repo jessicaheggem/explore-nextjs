@@ -27,7 +27,11 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
 
-        <main></main>
+        <main>
+        <button type="button" className="btn btn-success">Learn more about Jessica!</button>
+
+
+        </main>
 
         <footer></footer>
       </div>
