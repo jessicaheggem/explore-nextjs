@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import NavBar from "./NavBar.js";
+import NavBar from "./NavBar.jsx";
+import Image from "next/image";
+// import mtWashington from '../../public/mt-washington-view-rocks.jpg';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,15 +25,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
+      
+
+      <Image 
+      src="/mt-washington-view-rocks.jpg" 
+      width={800} 
+  height={600}
+  layout="responsive"
+  alt="Hiking Mt. Washington"/>
+        <button type="button" className="btn btn-success">Learn more about Jessica!</button>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
 
-        <main>
-        <button type="button" className="btn btn-success">Learn more about Jessica!</button>
 
 
-        </main>
 
         <footer></footer>
       </div>
